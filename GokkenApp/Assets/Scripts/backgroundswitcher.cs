@@ -10,39 +10,42 @@ public class backgroundswitcher : MonoBehaviour
     public GameObject nederlandbackground;
 
     //Making true or false statements
-    public bool isCasinobackground = false;
-    public bool isVegasbackground = false;
-    public bool isNederlandbackground = false;
+    public bool iscasinobackground = false;
+    public bool isvegasbackground = false;
+    public bool isnederlandbackground = false;
 
     //Backgroundswitching
-    if (isCasinobackground = false) //Casino background
+    void Test()
+    {
+        if (iscasinobackground == true) //Casino background
         {
             casinobackground.SetActive(true);
             vegasbackground.SetActive(false);
             nederlandbackground.SetActive(false);
-        
-            isCasinobackground = true;
-            isVegasbackground = false;
-            isNederlandbackground = false;
+
+            iscasinobackground = true;
+            isvegasbackground = false;
+            isnederlandbackground = false;
         }
-    else if (isVegasbackground = false) //Vegas background
+        else if (isvegasbackground == true) //Vegas background
         {
             casinobackground.SetActive(false);
             vegasbackground.SetActive(true);
             nederlandbackground.SetActive(false);
 
-            isCasinobackground = false;
-            isVegasbackground = true;
-            isNederlandbackground = false;
+            iscasinobackground = false;
+            isvegasbackground = true;
+            isnederlandbackground = false;
         }
-    else (isNederlandbackground = false) //Nederland background
+        else if (isnederlandbackground == true) //Nederland background
         {
             casinobackground.SetActive(false);
             vegasbackground.SetActive(false);
             nederlandbackground.SetActive(true);
 
-            isCasinobackground = false;
-            isVegasbackground = false;
-            isNederlandbackground = true;
+            iscasinobackground = false;
+            isvegasbackground = false;
+            isnederlandbackground = true;
         }
+    }    
 }
