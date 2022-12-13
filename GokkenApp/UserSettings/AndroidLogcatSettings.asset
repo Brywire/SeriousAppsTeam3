@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "RZCR90CJJNM",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 21638,
+        "processId": 27779,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -18,6 +18,12 @@
             "deviceId": "RZCR90CJJNM",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 21638,
+            "exited": false
+        },
+        {
+            "deviceId": "RZCR90CJJNM",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 27779,
             "exited": false
         }
     ],
