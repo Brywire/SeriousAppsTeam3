@@ -1,38 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using TMPro;
-using Unity.VisualScripting;
-using UnityEngine.UI;
 
-public class Dialogue : MonoBehaviour
+public class BetterDialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
-    
-    //public Button button;
-    public bool Clicked = false;
-
 
     private int index;
+
+    bool textfinished = false;
     // Start is called before the first frame update
     void Start()
     {
-        textComponent.text = string.Empty;
-        StartDialouge();
-
-        //button.onClick.A(OnClickActivation);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Clicked = false;
-
-        /*if(OnMouseDown(0)/*Clicked == true)
+        if (Input.GetMouseButtonDown(0))
         {
-            if(textComponent.text == lines[index])
+            if (textComponent.text == lines[index])
             {
                 NextLine();
             }
@@ -41,7 +33,7 @@ public class Dialogue : MonoBehaviour
                 StopAllCoroutines();
                 textComponent.text = lines[index];
             }
-        }*/
+        }
     }
 
     void StartDialouge()
@@ -62,7 +54,7 @@ public class Dialogue : MonoBehaviour
 
     void NextLine()
     {
-        if (index < lines.Length - 1) 
+        if (index < lines.Length - 1)
         {
             index++;
             textComponent.text = string.Empty;
@@ -72,10 +64,5 @@ public class Dialogue : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
-    }
-
-    void OnClickActivation()
-    {
-        Clicked = true; //no good as is not in a loop
     }
 }
