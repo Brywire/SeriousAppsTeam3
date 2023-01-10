@@ -3,51 +3,84 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
+
 public class TypeWrite : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI _TMP;
+    [SerializeField] TextMeshProUGUI Tekst;
+    [SerializeField] TextMeshProUGUI Name;
 
-    public string[] stringArray;
+    public string[] stringTekstArray;
+    public string[] stringNameArray;
 
     [SerializeField] float timeBtwnChars;
     [SerializeField] float timeBtwnWords;
 
     int i = 0;
-    // Start is called before the first frame update
+
     void Start()
     {
         EndCheck();
+        BackCheck();
     }
 
-    void EndCheck()
+    public void EndCheck()
     {
-       if(i <= stringArray.Length - 1)
+        if (i <= stringTekstArray.Length - 1)
         {
-            _TMP.text = stringArray[i];
+            Tekst.text = stringTekstArray[i];
             StartCoroutine(TextVisible());
+        }
+        if (i <= stringNameArray.Length - 1)
+        {
+            Name.text = stringNameArray[i];
+        }
+    }
+
+    public void BackCheck()
+    {
+        if (i <= stringTekstArray.Length + 1)
+        {
+            Tekst.text = stringTekstArray[i];
+            StartCoroutine(TextVisible());
+        }
+        if (i <= stringNameArray.Length + 1)
+        {
+            Name.text = stringNameArray[i];
         }
     }
 
     private IEnumerator TextVisible()
     {
-        _TMP.ForceMeshUpdate();
-        int totalVisibleCharacters = _TMP.textInfo.characterCount;
+        Tekst.ForceMeshUpdate();
+        Name.ForceMeshUpdate();
+        int totalVisibleTekstCharacters = Tekst.textInfo.characterCount;
         int counter = 0;
 
         while (true)
         {
-            int visibleCount = counter % (totalVisibleCharacters + 1);
-            _TMP.maxVisibleCharacters = visibleCount;
+            int visibleCount = counter % (totalVisibleTekstCharacters + 1);
+            int visibleBackCount = counter % (totalVisibleTekstCharacters + 1);
+            Tekst.maxVisibleCharacters = visibleCount;
+            Tekst.maxVisibleCharacters = visibleBackCount;
 
-            if(visibleCount >- totalVisibleCharacters)
+            if (visibleCount >= totalVisibleTekstCharacters)
             {
                 i += 1;
-                Invoke("EndCheck", timeBtwnWords);
+                //Invoke("EndCheck", timeBtwnWords);
+                break;
+            }
+            if (visibleBackCount >= totalVisibleTekstCharacters)
+            {
+                i -= 1;
+                //Invoke("EndCheck", timeBtwnWords);
                 break;
             }
 
-            counter += 1;
-            yield return new WaitForSeconds(timeBtwnChars);
+                counter += 1;
+                yield return new WaitForSeconds(timeBtwnChars);
+
+
         }
     }
 }

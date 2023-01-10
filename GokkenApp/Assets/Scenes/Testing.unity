@@ -1018,7 +1018,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 365725385}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1182429665}
+        m_TargetAssemblyTypeName: TypeWrite, Assembly-CSharp
+        m_MethodName: BackCheck
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &365725385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4057,8 +4069,9 @@ GameObject:
   - component: {fileID: 1182429662}
   - component: {fileID: 1182429664}
   - component: {fileID: 1182429663}
+  - component: {fileID: 1182429665}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: tekst
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4104,8 +4117,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: aoifjgsiungujawufh auighiuawhiughwswuigh uasshfusebh fugyshduiygf bsdudlh
-    bgfjkghsdb gfhsd bfvhgsj
+  m_text: fa e
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4182,6 +4194,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1182429661}
   m_CullTransparentMesh: 1
+--- !u!114 &1182429665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182429661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5022b4ed8759b5e4ca5e5d50ac9b7b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tekst: {fileID: 1182429663}
+  Name: {fileID: 2086794728}
+  stringTekstArray:
+  - 'Brad en zijn vrienden zijn op vakantie in Las Vegas. Wat doe je in Vegas? Gokken
+    natuurlijk!  Tenminste... volgens zijn vrienden. Brad heeft zich laten meeslepen
+    in een spel, maar weet hij op tijd te stoppen? '
+  - Dit is mijn eerste keer gokken jongens en ik wil niet te veel geld verliezen
+    dus ik begin rustig.
+  - Ah komt goed joh, als je maar lol hebt.
+  - Eventjes later...
+  - Jongens kom snel kijken, ik heb de jackpot gewonnen!!
+  - 'Dit moeten we vaker gaan doen, als zelfs een beginner al kan winnen zouden wij
+    miljonairs kunnen worden! '
+  stringNameArray:
+  - Narrator
+  - Brad
+  - Lucas
+  - Narrator
+  - Brad
+  - Jordi
+  timeBtwnChars: 0.01
+  timeBtwnWords: 1
 --- !u!1 &1230054686
 GameObject:
   m_ObjectHideFlags: 0
@@ -5038,7 +5084,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1461475674}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1182429665}
+        m_TargetAssemblyTypeName: TypeWrite, Assembly-CSharp
+        m_MethodName: EndCheck
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1461475674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6639,7 +6697,7 @@ GameObject:
   - component: {fileID: 2086794729}
   - component: {fileID: 2086794728}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Naam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
