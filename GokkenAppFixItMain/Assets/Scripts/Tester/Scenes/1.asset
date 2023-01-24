@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a98449e56baa7349bd207f3be151354, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: '(In dit stuk is het de eerste keer dat Brad in het casino komt, hij krijgt
+      een overweldigde impressie door alles wat er in het casino gebeurt. Hij gaat
+      gokken en na een tijdje gokken met zijn vrienden wint hij de jackpot. Hierdoor
+      raakt hij eraan verslaafd.) '
+    speaker: {fileID: 11400000, guid: 7d4bd8ed73efb1c46ba29501bc082678, type: 2}
+  - text: Brad en zijn vrienden zijn op vakantie in Las Vegas. Wat doe je in Vegas?
+      Gokken natuurlijk!  Tenminste... volgens zijn vrienden. Brad heeft zich laten
+      meeslepen in een spel, maar weet hij op tijd te stoppen?
+    speaker: {fileID: 11400000, guid: c983d61fd1cbf99458da8fb794e0b76c, type: 2}
+  - text: Dit is mijn eerste keer gokken jongens en ik wil niet te veel geld verliezen
+      dus ik begin rustig.
+    speaker: {fileID: 11400000, guid: 0784a4f2b46b185408be2d117a244471, type: 2}
+  - text: Ah komt goed joh, als je maar lol hebt.
+    speaker: {fileID: 11400000, guid: 2d2cd90625c4b214f857d2273fc146ba, type: 2}
+  - text: Eventjes later...
+    speaker: {fileID: 11400000, guid: c983d61fd1cbf99458da8fb794e0b76c, type: 2}
+  - text: Jongens kom snel kijken, ik heb de jackpot gewonnen!!
+    speaker: {fileID: 11400000, guid: 0784a4f2b46b185408be2d117a244471, type: 2}
+  - text: 'Dit moeten we vaker gaan doen, als zelfs een beginner al kan winnen zouden
+      wij miljonairs kunnen worden! '
+    speaker: {fileID: 11400000, guid: 4d4ea25ae240eda4fbe61740e80b0313, type: 2}
+  background: {fileID: 21300000, guid: 9a00463eabed39549872ebb5f6a38acd, type: 3}
+  nextScene: {fileID: 11400000, guid: 0172ce43f2f907241b38c621bb590868, type: 2}
