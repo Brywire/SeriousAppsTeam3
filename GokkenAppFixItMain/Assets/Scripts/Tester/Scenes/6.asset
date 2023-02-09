@@ -12,6 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a98449e56baa7349bd207f3be151354, type: 3}
   m_Name: 6
   m_EditorClassIdentifier: 
-  sentences: []
-  background: {fileID: 0}
-  nextScene: {fileID: 0}
+  sentences:
+  - text: '(Na het geleende geld van zijn ouders te verliezen, gaat Brad geld stelen.
+      Hij staat in de hal, op het punt om naar buiten te gaan. In de hoek van zijn
+      oog ziet hij zijn vaders portemonnee liggen op een kastje.) '
+    speaker: {fileID: 11400000, guid: 7d4bd8ed73efb1c46ba29501bc082678, type: 2}
+  - text: Brad komt weer thuis aan...
+    speaker: {fileID: 11400000, guid: c983d61fd1cbf99458da8fb794e0b76c, type: 2}
+  - text: Echt dom dat ik al dat geld heb verloren. Hoe ga ik dit nu terug verdienen?
+      Voor een baantje heb ik nu geen tijd door school.
+    speaker: {fileID: 11400000, guid: 4eb4dd371c0deee4bbf9b13947d8de2f, type: 2}
+  - text: Hij staat in de gang van zijn huis, in zijn ooghoek ziet hij een portemonnee
+      liggen. Hij kan het niet weerstaan om er niet in te kijken en besluit om er
+      geld uit te jatten.
+    speaker: {fileID: 11400000, guid: c983d61fd1cbf99458da8fb794e0b76c, type: 2}
+  - text: Ik moet dit snel weer zien te verdubbelen, dan stop ik het terug in de
+      portemonnee voordat je merkt dat het weg is.
+    speaker: {fileID: 11400000, guid: 4eb4dd371c0deee4bbf9b13947d8de2f, type: 2}
+  background: {fileID: 21300000, guid: 04a0109e589dc8d4ca5da20f5b23a177, type: 3}
+  nextScene: {fileID: 11400000, guid: 72a92782124856f4ab5fe32d9b11de06, type: 2}

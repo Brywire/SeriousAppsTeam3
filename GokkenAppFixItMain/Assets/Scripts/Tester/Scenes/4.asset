@@ -12,6 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a98449e56baa7349bd207f3be151354, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  sentences: []
-  background: {fileID: 0}
-  nextScene: {fileID: 0}
+  sentences:
+  - text: (Na zijn slapeloze nacht gaat hij naar zijn ouders en heeft een leugen
+      om van hun geld te krijgen. Hij is van plan om dit geld te gebruiken in het
+      casino. Met het gewonnen geld zou hij zijn schulden terug kunnen betalen.)
+    speaker: {fileID: 11400000, guid: 7d4bd8ed73efb1c46ba29501bc082678, type: 2}
+  - text: Hoi pap en mam! Kan ik misschien wat geld lenen voor school? Voor een soort
+      van klassenuitje.
+    speaker: {fileID: 11400000, guid: 0784a4f2b46b185408be2d117a244471, type: 2}
+  - text: Tuurlijk jongen, wanneer kan je het denk je terugbetalen?
+    speaker: {fileID: 11400000, guid: bc8c3219d53223e46914709ea62d3ae2, type: 2}
+  - text: Over een week, is dat goed?
+    speaker: {fileID: 11400000, guid: 0784a4f2b46b185408be2d117a244471, type: 2}
+  - text: Dikke prima.
+    speaker: {fileID: 11400000, guid: a30511d6f3e580c48babb7aa3115a678, type: 2}
+  background: {fileID: 21300000, guid: 96ba4bb4fc48167448f12174281463ff, type: 3}
+  nextScene: {fileID: 11400000, guid: 1583eee5fd2dc184f9ea7c4da04c2d86, type: 2}

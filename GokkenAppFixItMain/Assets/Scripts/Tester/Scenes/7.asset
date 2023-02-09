@@ -12,6 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a98449e56baa7349bd207f3be151354, type: 3}
   m_Name: 7
   m_EditorClassIdentifier: 
-  sentences: []
-  background: {fileID: 0}
-  nextScene: {fileID: 0}
+  sentences:
+  - text: '(Een paar dagen nadat hij heeft gestolen loopt hij in de ochtend de woonkamer
+      in, hij ziet dat al zijn vrienden en familie daar zitten. Ze vertellen dat
+      ze weten dat hij gek verslaafd is, iedereen wil hem daarbij helpen en ze komen
+      tot het slot om hem naar de afkickkliniek te brengen.) '
+    speaker: {fileID: 11400000, guid: 7d4bd8ed73efb1c46ba29501bc082678, type: 2}
+  - text: Brad zijn ouders zijn erachter gekomen dat hij geld uit hun portemonnee
+      heeft gestolen en hebben rondgevraagd aan zijn vrienden waarom hij dat zou
+      doen.
+    speaker: {fileID: 11400000, guid: c983d61fd1cbf99458da8fb794e0b76c, type: 2}
+  - text: Lucas vertelde dat Brad heel vaak gokte en dat hij het geld van zijn telefoonabonnement
+      ook heeft gebruikt om te gokken.
+    speaker: {fileID: 11400000, guid: c983d61fd1cbf99458da8fb794e0b76c, type: 2}
+  - text: 'Uiteindelijk hebben de ouders besloten om een interventie te organiseren
+      met vrienden en familie, zodat ze er met hem over konden praten. '
+    speaker: {fileID: 11400000, guid: c983d61fd1cbf99458da8fb794e0b76c, type: 2}
+  - text: Brad loopt de woonkamer in en ziet dat al zijn vrienden en familie er zitten
+    speaker: {fileID: 11400000, guid: c983d61fd1cbf99458da8fb794e0b76c, type: 2}
+  - text: we moeten het ergens over hebben, we weten dat je gokverslaafd bent.
+    speaker: {fileID: 11400000, guid: a30511d6f3e580c48babb7aa3115a678, type: 2}
+  - text: Je hebt gelijk, ik geloof dat ik hulp nodig heb.
+    speaker: {fileID: 11400000, guid: 0784a4f2b46b185408be2d117a244471, type: 2}
+  background: {fileID: 21300000, guid: 96ba4bb4fc48167448f12174281463ff, type: 3}
+  nextScene: {fileID: 11400000, guid: 7eefaeef0f3007c4595f2c86b754d3a0, type: 2}

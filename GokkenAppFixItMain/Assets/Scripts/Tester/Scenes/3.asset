@@ -12,6 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a98449e56baa7349bd207f3be151354, type: 3}
   m_Name: 3
   m_EditorClassIdentifier: 
-  sentences: []
-  background: {fileID: 0}
-  nextScene: {fileID: 0}
+  sentences:
+  - text: (Na het geld opmaken wat Brad geleend heeft van zijn vrienden, voelt hij
+      zich erg schuldig. Hij maakt een plan om het geld terug te maken, weer via
+      gokken. In de ochtend gaat hij een leugen bedenken om geld te kunnen lenen
+      bij zijn ouders.)
+    speaker: {fileID: 11400000, guid: 7d4bd8ed73efb1c46ba29501bc082678, type: 2}
+  - text: Had ik toch maar niet dat geld voor mijn telefoonabonnement gebruikt, want
+      nu kom ik ook nog eens in de schulden.
+    speaker: {fileID: 11400000, guid: 4eb4dd371c0deee4bbf9b13947d8de2f, type: 2}
+  - text: Als ik het blijf uitstellen kom ik alleen maar verder in de problemen.
+      Ik moet het echt voor volgende week terug zien te krijgen.
+    speaker: {fileID: 11400000, guid: 4eb4dd371c0deee4bbf9b13947d8de2f, type: 2}
+  - text: Mijn ouders kunnen mij vast wel wat geld lenen en dan verdubbel ik het
+      bij het casino.
+    speaker: {fileID: 11400000, guid: 4eb4dd371c0deee4bbf9b13947d8de2f, type: 2}
+  - text: Vorige keer had ik verloren, het zou toch niet weer zijn dat ik verlies,
+      deze keer heb ik een grote kans om te winnen.
+    speaker: {fileID: 11400000, guid: 4eb4dd371c0deee4bbf9b13947d8de2f, type: 2}
+  background: {fileID: 21300000, guid: 37d1db26929c2b242b697c9d66fb2066, type: 3}
+  nextScene: {fileID: 11400000, guid: 83ad526b47d9b8e489301498ef894216, type: 2}

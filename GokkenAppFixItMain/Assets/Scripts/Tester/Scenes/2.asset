@@ -13,9 +13,35 @@ MonoBehaviour:
   m_Name: 2
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 0}
-  - text: 
-    speaker: {fileID: 0}
+  - text: (Terug in Nederland gaat hij weer met zijn vrienden gokken, na veel verlangen
+      om te winnen is hij alleen maar aan het verliezen. Uiteindelijk is hij door
+      zijn geld heen gegokt en gaat hij lenen bij zijn vrienden. Hij verliest weer
+      zijn geld en maakt een belofte om zijn vrienden over een week terug te betalen.)
+    speaker: {fileID: 11400000, guid: 7d4bd8ed73efb1c46ba29501bc082678, type: 2}
+  - text: Terug in Nederland.
+    speaker: {fileID: 11400000, guid: c983d61fd1cbf99458da8fb794e0b76c, type: 2}
+  - text: Hey jongens, aangezien we in Las Vegas zo een dikke jackpot hebben gewonnen,
+      waarom gaan we hier niet ook even gokken?
+    speaker: {fileID: 11400000, guid: 4d4ea25ae240eda4fbe61740e80b0313, type: 2}
+  - text: Ja, goed idee man.
+    speaker: {fileID: 11400000, guid: 3c214493af699d147b255d914b2f303d, type: 2}
+  - text: (Een tijdje gokken later)
+    speaker: {fileID: 11400000, guid: 7d4bd8ed73efb1c46ba29501bc082678, type: 2}
+  - text: 'Ah stik, nu heb ik al mijn eigen geld weg gegokt. Zal ik het geld van
+      mijn telefoonabonnement gaan gebruiken? Schijt, ik doe het gewoon want ik verdien
+      het toch wel weer terug. '
+    speaker: {fileID: 11400000, guid: 4eb4dd371c0deee4bbf9b13947d8de2f, type: 2}
+  - text: Hey jongens, ik ga gewoon het geld gebruiken waarmee ik mijn telefoonabonnement
+      moet betalen, kan mij het schelen.
+    speaker: {fileID: 11400000, guid: 0784a4f2b46b185408be2d117a244471, type: 2}
+  - text: Zelf weten man, als je het kwijt raakt is het je eigen schuld.
+    speaker: {fileID: 11400000, guid: 2d2cd90625c4b214f857d2273fc146ba, type: 2}
+  - text: Een tijdje gokken later...
+    speaker: {fileID: 11400000, guid: c983d61fd1cbf99458da8fb794e0b76c, type: 2}
+  - text: Ah stik, nu verlies ik weer, ik heb al mijn geld weg gegokt en ook dat
+      deel dat ik van mijn telefoonabonnement heb gebruikt.
+    speaker: {fileID: 11400000, guid: 4eb4dd371c0deee4bbf9b13947d8de2f, type: 2}
+  - text: Jongens, al mijn geld is op dus ik ga er tussenuit.
+    speaker: {fileID: 11400000, guid: 0784a4f2b46b185408be2d117a244471, type: 2}
   background: {fileID: 21300000, guid: 9d4f64dfd37c3514aa024ed5262c69e8, type: 3}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: ccf4422f04204b544886bb8142ba60c2, type: 2}
