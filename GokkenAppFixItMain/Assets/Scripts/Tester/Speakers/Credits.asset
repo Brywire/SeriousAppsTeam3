@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Credits
   m_EditorClassIdentifier: 
   SpeakerName: Credits
-  textColor: {r: 0.5, g: 0.49574798, b: 0, a: 0}
+  textColor: {r: 0.5, g: 0.49574798, b: 0, a: 1}

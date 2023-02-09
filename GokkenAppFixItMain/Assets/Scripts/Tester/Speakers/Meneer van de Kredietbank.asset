@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Meneer van de Kredietbank
   m_EditorClassIdentifier: 
   SpeakerName: Meneer van de Kredietbank
-  textColor: {r: 0, g: 0.5754717, b: 0.1537862, a: 0}
+  textColor: {r: 0, g: 0.5754717, b: 0.1537862, a: 1}

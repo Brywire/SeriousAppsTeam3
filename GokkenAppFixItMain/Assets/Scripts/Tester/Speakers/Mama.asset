@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Mama
   m_EditorClassIdentifier: 
   SpeakerName: Mama
-  textColor: {r: 1, g: 0.5330188, b: 0.5330188, a: 0}
+  textColor: {r: 1, g: 0.5330188, b: 0.5330188, a: 1}

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Developers
   m_EditorClassIdentifier: 
   SpeakerName: Developers
-  textColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 0}
+  textColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}

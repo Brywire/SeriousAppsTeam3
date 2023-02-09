@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: OpdrachtGever
   m_EditorClassIdentifier: 
   SpeakerName: OpdrachtGever
-  textColor: {r: 0, g: 0.5943396, b: 0.049528252, a: 0}
+  textColor: {r: 0, g: 0.5943396, b: 0.049528252, a: 1}
