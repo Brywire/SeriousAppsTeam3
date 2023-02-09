@@ -96,13 +96,13 @@ public class BackgroundController : MonoBehaviour
         else
         {
             background8.sprite = sprite;
-            animator.SetTrigger("SwitchEigth");
+            animator.SetTrigger("SwitchEighth");
         }
 
         if (!isSwitched)
         {
             background8.sprite = sprite;
-            animator.SetTrigger("SwitchEigth");
+            animator.SetTrigger("SwitchEighth");
         }
         else
         {
